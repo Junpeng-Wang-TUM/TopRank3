@@ -35,7 +35,7 @@ function ShowRank3Laminate(rank3LaminateParas, meshInfo, lgthScale)
 	
 	set([hDir11], 'LineWidth', 2, 'Color', [252 141 98]/255);
 	set([hDir21], 'LineWidth', 2, 'Color', [102 194 165]/255);
-	set([hDir31], 'LineWidth', 2, 'Color', [141 160 203]/255);
+	set([hDir31], 'LineWidth', 2, 'Color', [0 0 255]/255);
 	set(hCells, 'FaceColor', 'flat', 'FaceAlpha', 1, 'EdgeColor', 'None');
 	axis('equal'); axis('tight'); axis('off');
 end
