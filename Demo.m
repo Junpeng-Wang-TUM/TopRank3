@@ -30,7 +30,7 @@ if 1 %%User Tailored Model
 	[~,loadedNodes] = min(vecnorm(loadedCoords(2,:)-ndC,2,2));
 	loadingCond_(2).arr = [mesh_.nodesOnBoundary(loadedNodes) force(2,:)];
 else %%Import the external model involved in the associated paper
-	fileName = ('./data/femur_R150.txt');
+	fileName = './data/femur_R150.txt';
 	[mesh_, fixingCond_, loadingCond_] = ImportExternalFEAmodel(fileName);
 end
 
